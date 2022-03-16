@@ -1,0 +1,50 @@
+.page4{
+    width: 90vw;
+    height: 120vh;
+    margin: 5vmax auto;
+}
+
+.page4 h1{
+    font-size: 2.5vmax;
+    letter-spacing: 1px;
+    color: rgb(17, 17, 17);
+}
+
+.page4 h2{
+    font-size: 2vmax;
+    letter-spacing: 1px;
+    color: rgb(17, 17, 17);
+    margin-top: 1vmax;
+}
+
+.page4-content{
+    display: flex;
+}
+
+.page4-img{
+    width: 20vw ;
+    height: 48vh;
+    /* background-color: red; */
+}
+
+.page4-para{
+    margin-left: 2vmax;
+}
+
+.page4 p{
+   margin-bottom: 1vmax;
+   font-size: 1.1vmax;
+   line-height: 27px;
+   color: rgb(49, 49, 49);
+}
+
+.page4 p:nth-child(2){
+    margin-top: 2vmax !important;
+}
+
+
+.page4 h3{
+    font-size: 1vmax;
+    margin-top: 3vmax;
+    line-height: 27px;
+}

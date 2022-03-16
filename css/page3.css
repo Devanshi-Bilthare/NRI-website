@@ -1,0 +1,123 @@
+.page3{
+    width: 90vw;
+    height: 110vh;
+    margin:5vmax auto 0 auto;
+}
+
+.page3-top{
+    height: 50vh;
+    width: 90vw;
+    background-color: rgb(226, 226, 226);
+}
+
+.page3-heading{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3-heading h2{
+    font-size: 2vmax;
+    letter-spacing: 1px;
+    color: rgb(29, 29, 41);
+}
+
+.btn-container button{
+    width: 2vmax;
+    height: 2vmax;
+    border: none;
+    background-color:  rgb(201, 130, 0);
+    border-radius: 2px;
+    transition: .5s all;
+    margin-right: 1vmin;
+    cursor: pointer;
+}
+
+.btn-container button:hover{
+    background-color:rgb(29, 29, 41) ;
+}
+
+.btn-container button i{
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+.page3-boxes{
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 18vw;
+    height:25vh;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 2px 2px 10px rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+
+.circle{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+
+.circle i{
+    color: rgb(240, 240, 240) ;
+}
+
+.box:hover{
+    background-color: rgb(70, 91, 122);
+}
+
+.box:hover .circle{
+    border-color: rgb(201, 130, 0) ;
+}
+
+.page3-bottom{
+    width: 90vw;
+    height: 60vh;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay{
+    width: 90vw;
+    height: 60vh;
+    background-color: rgba(8, 25, 99, 0.555) ;
+    text-align: center;
+    padding-top: 2vmax;
+}
+
+.overlay h1{
+    color: white;
+    font-size: 2vmax;
+    letter-spacing: 1px;
+}
+
+.overlay video {
+    width: 40vw;
+    height: 40vh;
+    margin-top: 2vmax;
+}

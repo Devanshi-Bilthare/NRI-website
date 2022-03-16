@@ -1,0 +1,95 @@
+.page2{
+    height: 60vh;
+    width: 90vw;
+    /* background-color: blue; */
+    margin: 15vh auto 0 auto;
+    display: flex;
+}
+
+.page2-left{
+    width: 40vw;
+    height: 50vh;
+    /* background-color: red; */
+}
+
+.page2-left>h2{
+    font-size: 2vmax;
+    /* letter-spacing: 1px; */
+    text-shadow: 1px 1px 1px;
+}
+
+.page2-left>p{
+    font-size: 1vmax;
+    color: rgb(97, 97, 97);
+    letter-spacing: 1px;
+    margin-top: 1.5vmax;
+}
+.page2-left ul{
+    margin-top: 1vmax;
+}
+
+.page2-left li{
+    font-size: 1vmax;
+    color: rgb(97, 97, 97);
+    margin-left: 2vmax ;
+    letter-spacing: 1px;
+    margin-top: .5vmax;
+}
+
+.page2-right{
+    width: 50vw;
+    height: 80vh;
+    /* display: flex;    */
+}
+
+.top-cards{
+    width: 50vw;
+    height: 30vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width:15vw;
+    height: 25vh;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.card-img{
+    width: 15vw;
+    height: 22vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card p{
+    font-size: 1vmax;
+    margin-top: .5vmax;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px;
+}
+
+.card1-img{
+    background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0ZXIlMjBzY2llbmNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.card2-img{
+    background-image: url(https://media.istockphoto.com/photos/new-blueprint-and-plans-for-next-constuction-phase-picture-id898906332?b=1&k=20&m=898906332&s=170667a&w=0&h=VWsZicGvfksddBRKCgPVb1ZiTu8-fZe5gEdFZtdChDY=);
+}
+
+.card3-img{
+    background-image: url(https://media.istockphoto.com/photos/auto-mechanic-working-on-car-engine-in-mechanics-garage-repair-picture-id1284285153?b=1&k=20&m=1284285153&s=170667a&w=0&h=Qkc7YOECV0bzooIkwJX7eba7bD9MtxW0LL0xecEQ3pI=);
+}
+.card4-img{
+    background-image: url(https://images.unsplash.com/photo-1528724977141-d90af338860c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZWxlY3RyaWNhbCUyMGFuZCUyMGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+.card5-img{
+    background-image: url(https://media.istockphoto.com/photos/global-connection-picture-id1335295270?b=1&k=20&m=1335295270&s=170667a&w=0&h=PNF6QH5FyD_XvDbn4nHtIVKdmmlN86fCHTgwvkZYvHA=);
+}
+.card6-img{
+    background-image: url(https://media.istockphoto.com/photos/installation-of-processor-in-cpu-socket-picture-id500773792?k=20&m=500773792&s=612x612&w=0&h=1LKO7WZBNFGG7qlxovSN1_RrkFjz3B9zJVizaFnwVKQ=);
+}
+
